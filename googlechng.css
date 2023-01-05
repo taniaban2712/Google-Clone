@@ -1,0 +1,48 @@
+
+#search-bar{
+    color:#949494;
+    width: 443px;
+    height: 34px;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block; /*Now the Google icon and the search bar will always appear/stack one upon the other.*/
+}
+#Google-icon{
+    width: 425px;
+    height:40%;
+    margin-top:150px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    display: block;
+}
+/*Now for the space between the google logo and the top of the tab, we will use the margin command.*/
+.button{
+    margin-left:575px;
+    margin-top: 20px;
+    margin-bottom:5px;
+    display:block;
+}
+.languages{
+    color:blue;
+}
+.footer{
+    margin-left:400px;
+}
+.details{
+    margin-left: 10px;
+}
+footer{
+    margin-top:94px;
+}
+
+.link{
+    text-align:center;
+    text-decoration:none;
+}
+/*there are many components to centre a picture on the webpage.
+
+*It must be a "display:block". It cannot be inline such that they stack right beside each other.
+*It must have a proper width
+*margin-left/right:auto 
